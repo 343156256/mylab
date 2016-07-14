@@ -1,0 +1,19 @@
+1、这是一个第三方的东西，可以比较方便的完成自动适配的条件约束
+2、它采用的ARC模式来管理内存，如果项目是非ARC的那么需要我们在taget－》build parses－》compile Sources中双击对应的。m文件给它添加标签：－fobjc-arc,通理如果项目是arc的就需要将那些非arc的添加标签：-fno-objc-ac
+3、使用事例：
+  // 初始化红色按钮
+    UIButton * redBtn = [UIButton new];
+    redBtn.backgroundColor = [UIColor redColor];
+    [self.view addSubview:redBtn];
+    
+    // 给红色按钮添加约束
+    [redBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        // 大小 、上边距约束与黑色blackBtn相同
+        //  make.size.equalTo(blackBtn);
+        // 添加右边距约束（这里的间距是有方向性的，左、上边距约束正数，右、下边距约束为负数）
+        make.top.mas_equalTo(250);
+        make.height.mas_equalTo(150);
+        make.left.mas_equalTo(50);
+        make.right.mas_equalTo(-50);
+    }];
