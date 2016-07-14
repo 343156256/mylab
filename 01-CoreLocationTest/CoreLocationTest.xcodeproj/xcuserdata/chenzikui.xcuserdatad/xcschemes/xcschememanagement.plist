@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>dddddd.xcscheme</key>
+		<key>CoreLocationTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DF2D133E1D37418C00A41CB8</key>
+		<key>01F24B031C22CEB9005EE507</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DF2D13571D37418C00A41CB8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DF2D13621D37418C00A41CB8</key>
+		<key>01F24B1C1C22CEB9005EE507</key>
 		<dict>
 			<key>primary</key>
 			<true/>

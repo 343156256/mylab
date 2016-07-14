@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF2D133E1D37418C00A41CB8"
-               BuildableName = "dddddd.app"
-               BlueprintName = "dddddd"
-               ReferencedContainer = "container:dddddd.xcodeproj">
+               BlueprintIdentifier = "01F24B031C22CEB9005EE507"
+               BuildableName = "CoreLocationTest.app"
+               BlueprintName = "CoreLocationTest"
+               ReferencedContainer = "container:CoreLocationTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF2D13571D37418C00A41CB8"
-               BuildableName = "ddddddTests.xctest"
-               BlueprintName = "ddddddTests"
-               ReferencedContainer = "container:dddddd.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF2D13621D37418C00A41CB8"
-               BuildableName = "ddddddUITests.xctest"
-               BlueprintName = "ddddddUITests"
-               ReferencedContainer = "container:dddddd.xcodeproj">
+               BlueprintIdentifier = "01F24B1C1C22CEB9005EE507"
+               BuildableName = "CoreLocationTestTests.xctest"
+               BlueprintName = "CoreLocationTestTests"
+               ReferencedContainer = "container:CoreLocationTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF2D133E1D37418C00A41CB8"
-            BuildableName = "dddddd.app"
-            BlueprintName = "dddddd"
-            ReferencedContainer = "container:dddddd.xcodeproj">
+            BlueprintIdentifier = "01F24B031C22CEB9005EE507"
+            BuildableName = "CoreLocationTest.app"
+            BlueprintName = "CoreLocationTest"
+            ReferencedContainer = "container:CoreLocationTest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +65,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF2D133E1D37418C00A41CB8"
-            BuildableName = "dddddd.app"
-            BlueprintName = "dddddd"
-            ReferencedContainer = "container:dddddd.xcodeproj">
+            BlueprintIdentifier = "01F24B031C22CEB9005EE507"
+            BuildableName = "CoreLocationTest.app"
+            BlueprintName = "CoreLocationTest"
+            ReferencedContainer = "container:CoreLocationTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +84,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF2D133E1D37418C00A41CB8"
-            BuildableName = "dddddd.app"
-            BlueprintName = "dddddd"
-            ReferencedContainer = "container:dddddd.xcodeproj">
+            BlueprintIdentifier = "01F24B031C22CEB9005EE507"
+            BuildableName = "CoreLocationTest.app"
+            BlueprintName = "CoreLocationTest"
+            ReferencedContainer = "container:CoreLocationTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
