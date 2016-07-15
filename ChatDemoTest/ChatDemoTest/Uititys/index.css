@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	font-size=62.5%;
+	font-family: "Helvetica Neue", "PingFangSC-Light", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.layout{
+	height: 100%;
+	width: 100%;
+	display: table;
+	padding: 1em;
+}
+
+.layout .rows{
+	font-size: 0.8em;
+	color: #494949;
+	margin-bottom: 0.5em;
+}

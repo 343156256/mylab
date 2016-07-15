@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF360ED01CFFC61400D5953B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF360ECF1CFFC61400D5953B /* main.m */; };
+		DF360ED31CFFC61400D5953B /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = DF360ED21CFFC61400D5953B /* AppDelegate.mm */; };
+		DF360EDB1CFFC61400D5953B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF360EDA1CFFC61400D5953B /* Assets.xcassets */; };
+		DF360EDE1CFFC61400D5953B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF360EDC1CFFC61400D5953B /* LaunchScreen.storyboard */; };
+		DF360EE91CFFC61400D5953B /* ChatDemoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF360EE81CFFC61400D5953B /* ChatDemoTestTests.m */; };
+		DF360EF41CFFC61400D5953B /* ChatDemoTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF360EF31CFFC61400D5953B /* ChatDemoTestUITests.m */; };
+		DF360F031CFFC89800D5953B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF360F021CFFC89800D5953B /* CoreMedia.framework */; };
+		DF360F051CFFC8C200D5953B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF360F041CFFC8C200D5953B /* AudioToolbox.framework */; };
+		DF360F071CFFC8CD00D5953B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF360F061CFFC8CD00D5953B /* AVFoundation.framework */; };
+		DF360F091CFFC8D700D5953B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF360F081CFFC8D700D5953B /* MobileCoreServices.framework */; };
+		DF360F0B1CFFC8E000D5953B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF360F0A1CFFC8E000D5953B /* ImageIO.framework */; };
+		DF360F0D1CFFC8EE00D5953B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF360F0C1CFFC8EE00D5953B /* libc++.tbd */; };
+		DF360F0F1CFFC8F900D5953B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF360F0E1CFFC8F900D5953B /* libz.tbd */; };
+		DF360F111CFFC90400D5953B /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF360F101CFFC90400D5953B /* libstdc++.6.0.9.tbd */; };
+		DF360F131CFFC90F00D5953B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF360F121CFFC90F00D5953B /* libsqlite3.tbd */; };
+		DF360F151CFFC91700D5953B /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF360F141CFFC91700D5953B /* libiconv.tbd */; };
+		DF7C8E201D227C2000C3E994 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7C8E191D227C2000C3E994 /* BaiduMapAPI_Base.framework */; };
+		DF7C8E211D227C2000C3E994 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7C8E1A1D227C2000C3E994 /* BaiduMapAPI_Cloud.framework */; };
+		DF7C8E221D227C2000C3E994 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7C8E1B1D227C2000C3E994 /* BaiduMapAPI_Location.framework */; };
+		DF7C8E231D227C2000C3E994 /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7C8E1C1D227C2000C3E994 /* BaiduMapAPI_Map.framework */; };
+		DF7C8E241D227C2000C3E994 /* BaiduMapAPI_Radar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7C8E1D1D227C2000C3E994 /* BaiduMapAPI_Radar.framework */; };
+		DF7C8E251D227C2000C3E994 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7C8E1E1D227C2000C3E994 /* BaiduMapAPI_Search.framework */; };
+		DF7C8E261D227C2000C3E994 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7C8E1F1D227C2000C3E994 /* BaiduMapAPI_Utils.framework */; };
+		DF84A9851D01388C009F9F98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF84A9871D01388C009F9F98 /* InfoPlist.strings */; };
+		DF84A98B1D0151AE009F9F98 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF84A98A1D0151AE009F9F98 /* Accounts.framework */; };
+		DF84A98D1D0151C1009F9F98 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF84A98C1D0151C1009F9F98 /* CoreData.framework */; };
+		DF84A98F1D0151DA009F9F98 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF84A98E1D0151DA009F9F98 /* CoreText.framework */; };
+		DF84A9911D0151F9009F9F98 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF84A9901D0151F9009F9F98 /* MapKit.framework */; };
+		DF84A9931D01542C009F9F98 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF84A9921D01542C009F9F98 /* CoreLocation.framework */; };
+		DF84A9951D01543D009F9F98 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF84A9941D01543D009F9F98 /* SystemConfiguration.framework */; };
+		DF84A9971D01548C009F9F98 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF84A9961D01548C009F9F98 /* AddressBook.framework */; };
+		DF84A9991D01549C009F9F98 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF84A9981D01549C009F9F98 /* CFNetwork.framework */; };
+		DF84A9C41D0168C3009F9F98 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF84A9C61D0168C3009F9F98 /* Localizable.strings */; };
+		DF8ACBD31D19257E0013AE86 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = DF8ACBD11D19257E0013AE86 /* index.css */; };
+		DF8ACBD41D19257E0013AE86 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DF8ACBD21D19257E0013AE86 /* index.html */; };
+		DF99546B1D00226C0052A43B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF99546A1D00226C0052A43B /* Foundation.framework */; };
+		DFC8A9371D265EBD00631057 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC8A9361D265EBD00631057 /* QuartzCore.framework */; };
+		DFC8A9391D265EDA00631057 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC8A9381D265EDA00631057 /* OpenGLES.framework */; };
+		DFC8A93B1D265EF800631057 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC8A93A1D265EF800631057 /* CoreGraphics.framework */; };
+		DFC8A93D1D265F0900631057 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC8A93C1D265F0900631057 /* Security.framework */; };
+		DFC8A93F1D265F2900631057 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC8A93E1D265F2900631057 /* libsqlite3.0.tbd */; };
+		DFC8A9411D265F4600631057 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC8A9401D265F4600631057 /* CoreTelephony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF360EE51CFFC61400D5953B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF360EC31CFFC61400D5953B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF360ECA1CFFC61400D5953B;
+			remoteInfo = ChatDemoTest;
+		};
+		DF360EF01CFFC61400D5953B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF360EC31CFFC61400D5953B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF360ECA1CFFC61400D5953B;
+			remoteInfo = ChatDemoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF2AC6AD1D0003CB002A5853 /* ChatDemoUIDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatDemoUIDefine.h; sourceTree = "<group>"; };
+		DF360ECB1CFFC61400D5953B /* ChatDemoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatDemoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF360ECF1CFFC61400D5953B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF360ED11CFFC61400D5953B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF360ED21CFFC61400D5953B /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		DF360EDA1CFFC61400D5953B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF360EDD1CFFC61400D5953B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF360EDF1CFFC61400D5953B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF360EE41CFFC61400D5953B /* ChatDemoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatDemoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF360EE81CFFC61400D5953B /* ChatDemoTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatDemoTestTests.m; sourceTree = "<group>"; };
+		DF360EEA1CFFC61400D5953B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF360EEF1CFFC61400D5953B /* ChatDemoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatDemoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF360EF31CFFC61400D5953B /* ChatDemoTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatDemoTestUITests.m; sourceTree = "<group>"; };
+		DF360EF51CFFC61400D5953B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF360F021CFFC89800D5953B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DF360F041CFFC8C200D5953B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DF360F061CFFC8CD00D5953B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DF360F081CFFC8D700D5953B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DF360F0A1CFFC8E000D5953B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		DF360F0C1CFFC8EE00D5953B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		DF360F0E1CFFC8F900D5953B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DF360F101CFFC90400D5953B /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		DF360F121CFFC90F00D5953B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		DF360F141CFFC91700D5953B /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		DF7C8E191D227C2000C3E994 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		DF7C8E1A1D227C2000C3E994 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		DF7C8E1B1D227C2000C3E994 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		DF7C8E1C1D227C2000C3E994 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		DF7C8E1D1D227C2000C3E994 /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
+		DF7C8E1E1D227C2000C3E994 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		DF7C8E1F1D227C2000C3E994 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		DF84A9791D011436009F9F98 /* zh-Hans-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-CN"; path = "zh-Hans-CN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		DF84A9861D01388C009F9F98 /* zh-Hans-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-CN"; path = "zh-Hans-CN.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DF84A9881D013890009F9F98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF84A9891D013894009F9F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF84A98A1D0151AE009F9F98 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		DF84A98C1D0151C1009F9F98 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DF84A98E1D0151DA009F9F98 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		DF84A9901D0151F9009F9F98 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DF84A9921D01542C009F9F98 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DF84A9941D01543D009F9F98 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DF84A9961D01548C009F9F98 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		DF84A9981D01549C009F9F98 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DF84A9C51D0168C3009F9F98 /* zh-Hans-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-CN"; path = "zh-Hans-CN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DF84A9C71D0168C6009F9F98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DF84A9C81D0168CE009F9F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DF8ACBD11D19257E0013AE86 /* index.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
+		DF8ACBD21D19257E0013AE86 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		DF99546A1D00226C0052A43B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFC8A9361D265EBD00631057 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DFC8A9381D265EDA00631057 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DFC8A93A1D265EF800631057 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DFC8A93C1D265F0900631057 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DFC8A93E1D265F2900631057 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		DFC8A9401D265F4600631057 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DFF58CC51CFFFBAB000792FB /* ChatDemo-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatDemo-PrefixHeader.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF360EC81CFFC61400D5953B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC8A9411D265F4600631057 /* CoreTelephony.framework in Frameworks */,
+				DFC8A93F1D265F2900631057 /* libsqlite3.0.tbd in Frameworks */,
+				DFC8A93D1D265F0900631057 /* Security.framework in Frameworks */,
+				DFC8A93B1D265EF800631057 /* CoreGraphics.framework in Frameworks */,
+				DFC8A9391D265EDA00631057 /* OpenGLES.framework in Frameworks */,
+				DFC8A9371D265EBD00631057 /* QuartzCore.framework in Frameworks */,
+				DF84A9991D01549C009F9F98 /* CFNetwork.framework in Frameworks */,
+				DF84A9971D01548C009F9F98 /* AddressBook.framework in Frameworks */,
+				DF7C8E261D227C2000C3E994 /* BaiduMapAPI_Utils.framework in Frameworks */,
+				DF360F091CFFC8D700D5953B /* MobileCoreServices.framework in Frameworks */,
+				DF84A9951D01543D009F9F98 /* SystemConfiguration.framework in Frameworks */,
+				DF84A9931D01542C009F9F98 /* CoreLocation.framework in Frameworks */,
+				DF84A9911D0151F9009F9F98 /* MapKit.framework in Frameworks */,
+				DF84A98F1D0151DA009F9F98 /* CoreText.framework in Frameworks */,
+				DF84A98D1D0151C1009F9F98 /* CoreData.framework in Frameworks */,
+				DF7C8E241D227C2000C3E994 /* BaiduMapAPI_Radar.framework in Frameworks */,
+				DF84A98B1D0151AE009F9F98 /* Accounts.framework in Frameworks */,
+				DF7C8E251D227C2000C3E994 /* BaiduMapAPI_Search.framework in Frameworks */,
+				DF99546B1D00226C0052A43B /* Foundation.framework in Frameworks */,
+				DF360F151CFFC91700D5953B /* libiconv.tbd in Frameworks */,
+				DF360F131CFFC90F00D5953B /* libsqlite3.tbd in Frameworks */,
+				DF360F111CFFC90400D5953B /* libstdc++.6.0.9.tbd in Frameworks */,
+				DF360F0F1CFFC8F900D5953B /* libz.tbd in Frameworks */,
+				DF7C8E201D227C2000C3E994 /* BaiduMapAPI_Base.framework in Frameworks */,
+				DF360F0D1CFFC8EE00D5953B /* libc++.tbd in Frameworks */,
+				DF360F0B1CFFC8E000D5953B /* ImageIO.framework in Frameworks */,
+				DF7C8E221D227C2000C3E994 /* BaiduMapAPI_Location.framework in Frameworks */,
+				DF7C8E231D227C2000C3E994 /* BaiduMapAPI_Map.framework in Frameworks */,
+				DF7C8E211D227C2000C3E994 /* BaiduMapAPI_Cloud.framework in Frameworks */,
+				DF360F071CFFC8CD00D5953B /* AVFoundation.framework in Frameworks */,
+				DF360F051CFFC8C200D5953B /* AudioToolbox.framework in Frameworks */,
+				DF360F031CFFC89800D5953B /* CoreMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF360EE11CFFC61400D5953B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF360EEC1CFFC61400D5953B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF360EC21CFFC61400D5953B = {
+			isa = PBXGroup;
+			children = (
+				DFC8A9401D265F4600631057 /* CoreTelephony.framework */,
+				DFC8A93E1D265F2900631057 /* libsqlite3.0.tbd */,
+				DFC8A93C1D265F0900631057 /* Security.framework */,
+				DFC8A93A1D265EF800631057 /* CoreGraphics.framework */,
+				DFC8A9381D265EDA00631057 /* OpenGLES.framework */,
+				DFC8A9361D265EBD00631057 /* QuartzCore.framework */,
+				DF360F011CFFC84100D5953B /* FrameWorks */,
+				DF360ECD1CFFC61400D5953B /* ChatDemoTest */,
+				DF360EE71CFFC61400D5953B /* ChatDemoTestTests */,
+				DF360EF21CFFC61400D5953B /* ChatDemoTestUITests */,
+				DF360ECC1CFFC61400D5953B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF360ECC1CFFC61400D5953B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF360ECB1CFFC61400D5953B /* ChatDemoTest.app */,
+				DF360EE41CFFC61400D5953B /* ChatDemoTestTests.xctest */,
+				DF360EEF1CFFC61400D5953B /* ChatDemoTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF360ECD1CFFC61400D5953B /* ChatDemoTest */ = {
+			isa = PBXGroup;
+			children = (
+				DF360ED11CFFC61400D5953B /* AppDelegate.h */,
+				DF360ED21CFFC61400D5953B /* AppDelegate.mm */,
+				DF360EDA1CFFC61400D5953B /* Assets.xcassets */,
+				DF360EDC1CFFC61400D5953B /* LaunchScreen.storyboard */,
+				DF360EDF1CFFC61400D5953B /* Info.plist */,
+				DF8ACBD01D19254C0013AE86 /* Uititys */,
+				DF360ECE1CFFC61400D5953B /* Supporting Files */,
+			);
+			path = ChatDemoTest;
+			sourceTree = "<group>";
+		};
+		DF360ECE1CFFC61400D5953B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF84A9C61D0168C3009F9F98 /* Localizable.strings */,
+				DF84A9871D01388C009F9F98 /* InfoPlist.strings */,
+				DF360ECF1CFFC61400D5953B /* main.m */,
+				DF2AC6AD1D0003CB002A5853 /* ChatDemoUIDefine.h */,
+				DFF58CC51CFFFBAB000792FB /* ChatDemo-PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF360EE71CFFC61400D5953B /* ChatDemoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF360EE81CFFC61400D5953B /* ChatDemoTestTests.m */,
+				DF360EEA1CFFC61400D5953B /* Info.plist */,
+			);
+			path = ChatDemoTestTests;
+			sourceTree = "<group>";
+		};
+		DF360EF21CFFC61400D5953B /* ChatDemoTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF360EF31CFFC61400D5953B /* ChatDemoTestUITests.m */,
+				DF360EF51CFFC61400D5953B /* Info.plist */,
+			);
+			path = ChatDemoTestUITests;
+			sourceTree = "<group>";
+		};
+		DF360F011CFFC84100D5953B /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C8E181D227C2000C3E994 /* BaiduMap_IOSSDK_v3 */,
+				DF84A9981D01549C009F9F98 /* CFNetwork.framework */,
+				DF84A9961D01548C009F9F98 /* AddressBook.framework */,
+				DF84A9941D01543D009F9F98 /* SystemConfiguration.framework */,
+				DF84A9921D01542C009F9F98 /* CoreLocation.framework */,
+				DF84A9901D0151F9009F9F98 /* MapKit.framework */,
+				DF84A98E1D0151DA009F9F98 /* CoreText.framework */,
+				DF84A98C1D0151C1009F9F98 /* CoreData.framework */,
+				DF84A98A1D0151AE009F9F98 /* Accounts.framework */,
+				DF99546A1D00226C0052A43B /* Foundation.framework */,
+				DF360F141CFFC91700D5953B /* libiconv.tbd */,
+				DF360F121CFFC90F00D5953B /* libsqlite3.tbd */,
+				DF360F101CFFC90400D5953B /* libstdc++.6.0.9.tbd */,
+				DF360F0E1CFFC8F900D5953B /* libz.tbd */,
+				DF360F0C1CFFC8EE00D5953B /* libc++.tbd */,
+				DF360F0A1CFFC8E000D5953B /* ImageIO.framework */,
+				DF360F081CFFC8D700D5953B /* MobileCoreServices.framework */,
+				DF360F061CFFC8CD00D5953B /* AVFoundation.framework */,
+				DF360F041CFFC8C200D5953B /* AudioToolbox.framework */,
+				DF360F021CFFC89800D5953B /* CoreMedia.framework */,
+			);
+			path = FrameWorks;
+			sourceTree = "<group>";
+		};
+		DF7C8E181D227C2000C3E994 /* BaiduMap_IOSSDK_v3 */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C8E191D227C2000C3E994 /* BaiduMapAPI_Base.framework */,
+				DF7C8E1A1D227C2000C3E994 /* BaiduMapAPI_Cloud.framework */,
+				DF7C8E1B1D227C2000C3E994 /* BaiduMapAPI_Location.framework */,
+				DF7C8E1C1D227C2000C3E994 /* BaiduMapAPI_Map.framework */,
+				DF7C8E1D1D227C2000C3E994 /* BaiduMapAPI_Radar.framework */,
+				DF7C8E1E1D227C2000C3E994 /* BaiduMapAPI_Search.framework */,
+				DF7C8E1F1D227C2000C3E994 /* BaiduMapAPI_Utils.framework */,
+			);
+			path = BaiduMap_IOSSDK_v3;
+			sourceTree = "<group>";
+		};
+		DF8ACBD01D19254C0013AE86 /* Uititys */ = {
+			isa = PBXGroup;
+			children = (
+				DF8ACBD11D19257E0013AE86 /* index.css */,
+				DF8ACBD21D19257E0013AE86 /* index.html */,
+			);
+			path = Uititys;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF360ECA1CFFC61400D5953B /* ChatDemoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF360EF81CFFC61400D5953B /* Build configuration list for PBXNativeTarget "ChatDemoTest" */;
+			buildPhases = (
+				DF360EC71CFFC61400D5953B /* Sources */,
+				DF360EC81CFFC61400D5953B /* Frameworks */,
+				DF360EC91CFFC61400D5953B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatDemoTest;
+			productName = ChatDemoTest;
+			productReference = DF360ECB1CFFC61400D5953B /* ChatDemoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF360EE31CFFC61400D5953B /* ChatDemoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF360EFB1CFFC61400D5953B /* Build configuration list for PBXNativeTarget "ChatDemoTestTests" */;
+			buildPhases = (
+				DF360EE01CFFC61400D5953B /* Sources */,
+				DF360EE11CFFC61400D5953B /* Frameworks */,
+				DF360EE21CFFC61400D5953B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF360EE61CFFC61400D5953B /* PBXTargetDependency */,
+			);
+			name = ChatDemoTestTests;
+			productName = ChatDemoTestTests;
+			productReference = DF360EE41CFFC61400D5953B /* ChatDemoTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF360EEE1CFFC61400D5953B /* ChatDemoTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF360EFE1CFFC61400D5953B /* Build configuration list for PBXNativeTarget "ChatDemoTestUITests" */;
+			buildPhases = (
+				DF360EEB1CFFC61400D5953B /* Sources */,
+				DF360EEC1CFFC61400D5953B /* Frameworks */,
+				DF360EED1CFFC61400D5953B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF360EF11CFFC61400D5953B /* PBXTargetDependency */,
+			);
+			name = ChatDemoTestUITests;
+			productName = ChatDemoTestUITests;
+			productReference = DF360EEF1CFFC61400D5953B /* ChatDemoTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF360EC31CFFC61400D5953B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "陈自奎";
+				TargetAttributes = {
+					DF360ECA1CFFC61400D5953B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TW83TPUEY6;
+					};
+					DF360EE31CFFC61400D5953B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DF360ECA1CFFC61400D5953B;
+					};
+					DF360EEE1CFFC61400D5953B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DF360ECA1CFFC61400D5953B;
+					};
+				};
+			};
+			buildConfigurationList = DF360EC61CFFC61400D5953B /* Build configuration list for PBXProject "ChatDemoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF360EC21CFFC61400D5953B;
+			productRefGroup = DF360ECC1CFFC61400D5953B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF360ECA1CFFC61400D5953B /* ChatDemoTest */,
+				DF360EE31CFFC61400D5953B /* ChatDemoTestTests */,
+				DF360EEE1CFFC61400D5953B /* ChatDemoTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF360EC91CFFC61400D5953B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8ACBD41D19257E0013AE86 /* index.html in Resources */,
+				DF360EDE1CFFC61400D5953B /* LaunchScreen.storyboard in Resources */,
+				DF84A9851D01388C009F9F98 /* InfoPlist.strings in Resources */,
+				DF8ACBD31D19257E0013AE86 /* index.css in Resources */,
+				DF84A9C41D0168C3009F9F98 /* Localizable.strings in Resources */,
+				DF360EDB1CFFC61400D5953B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF360EE21CFFC61400D5953B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF360EED1CFFC61400D5953B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF360EC71CFFC61400D5953B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF360ED31CFFC61400D5953B /* AppDelegate.mm in Sources */,
+				DF360ED01CFFC61400D5953B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF360EE01CFFC61400D5953B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF360EE91CFFC61400D5953B /* ChatDemoTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF360EEB1CFFC61400D5953B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF360EF41CFFC61400D5953B /* ChatDemoTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF360EE61CFFC61400D5953B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF360ECA1CFFC61400D5953B /* ChatDemoTest */;
+			targetProxy = DF360EE51CFFC61400D5953B /* PBXContainerItemProxy */;
+		};
+		DF360EF11CFFC61400D5953B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF360ECA1CFFC61400D5953B /* ChatDemoTest */;
+			targetProxy = DF360EF01CFFC61400D5953B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF360EDC1CFFC61400D5953B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF360EDD1CFFC61400D5953B /* Base */,
+				DF84A9791D011436009F9F98 /* zh-Hans-CN */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DF84A9871D01388C009F9F98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF84A9861D01388C009F9F98 /* zh-Hans-CN */,
+				DF84A9881D013890009F9F98 /* en */,
+				DF84A9891D013894009F9F98 /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF84A9C61D0168C3009F9F98 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF84A9C51D0168C3009F9F98 /* zh-Hans-CN */,
+				DF84A9C71D0168C6009F9F98 /* en */,
+				DF84A9C81D0168CE009F9F98 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF360EF61CFFC61400D5953B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF360EF71CFFC61400D5953B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF360EF91CFFC61400D5953B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChatDemoTest/Parse",
+					"$(PROJECT_DIR)/FrameWorks/BaiduMap_IOSSDK_v3",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChatDemoTest/ChatDemo-PrefixHeader.pch";
+				INFOPLIST_FILE = ChatDemoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChatDemoTest/HyphenateFullSDK/lib/3rdparty",
+					"$(PROJECT_DIR)/ChatDemoTest/HyphenateFullSDK/lib",
+					"$(PROJECT_DIR)/ChatDemoTest/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrnb",
+					"$(PROJECT_DIR)/ChatDemoTest/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrwb",
+					"$(PROJECT_DIR)/ChatDemoTest/RedpacketSDK/RedpacketStaticLib/lib",
+					"$(PROJECT_DIR)/ChatDemoTest/UMeng",
+					"$(PROJECT_DIR)/ChatDemoTest/Class/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrnb",
+					"$(PROJECT_DIR)/ChatDemoTest/Class/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrwb",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dftc.saxs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		DF360EFA1CFFC61400D5953B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChatDemoTest/Parse",
+					"$(PROJECT_DIR)/FrameWorks/BaiduMap_IOSSDK_v3",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChatDemoTest/ChatDemo-PrefixHeader.pch";
+				INFOPLIST_FILE = ChatDemoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChatDemoTest/HyphenateFullSDK/lib/3rdparty",
+					"$(PROJECT_DIR)/ChatDemoTest/HyphenateFullSDK/lib",
+					"$(PROJECT_DIR)/ChatDemoTest/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrnb",
+					"$(PROJECT_DIR)/ChatDemoTest/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrwb",
+					"$(PROJECT_DIR)/ChatDemoTest/RedpacketSDK/RedpacketStaticLib/lib",
+					"$(PROJECT_DIR)/ChatDemoTest/UMeng",
+					"$(PROJECT_DIR)/ChatDemoTest/Class/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrnb",
+					"$(PROJECT_DIR)/ChatDemoTest/Class/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrwb",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dftc.saxs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		DF360EFC1CFFC61400D5953B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChatDemoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiancheng.www.ChatDemoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatDemoTest.app/ChatDemoTest";
+			};
+			name = Debug;
+		};
+		DF360EFD1CFFC61400D5953B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChatDemoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiancheng.www.ChatDemoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatDemoTest.app/ChatDemoTest";
+			};
+			name = Release;
+		};
+		DF360EFF1CFFC61400D5953B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChatDemoTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiancheng.www.ChatDemoTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChatDemoTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DF360F001CFFC61400D5953B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChatDemoTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiancheng.www.ChatDemoTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChatDemoTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF360EC61CFFC61400D5953B /* Build configuration list for PBXProject "ChatDemoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF360EF61CFFC61400D5953B /* Debug */,
+				DF360EF71CFFC61400D5953B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF360EF81CFFC61400D5953B /* Build configuration list for PBXNativeTarget "ChatDemoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF360EF91CFFC61400D5953B /* Debug */,
+				DF360EFA1CFFC61400D5953B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF360EFB1CFFC61400D5953B /* Build configuration list for PBXNativeTarget "ChatDemoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF360EFC1CFFC61400D5953B /* Debug */,
+				DF360EFD1CFFC61400D5953B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF360EFE1CFFC61400D5953B /* Build configuration list for PBXNativeTarget "ChatDemoTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF360EFF1CFFC61400D5953B /* Debug */,
+				DF360F001CFFC61400D5953B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF360EC31CFFC61400D5953B /* Project object */;
+}

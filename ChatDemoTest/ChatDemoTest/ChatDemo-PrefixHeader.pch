@@ -1,0 +1,68 @@
+//
+//  ChatDemo-PrefixHeader.pch
+//  ChatDemoTest
+//
+//  Created by 陈自奎 on 16/6/2.
+//  Copyright © 2016年 陈自奎. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "ChatDemoUIDefine.h"
+#import "EMAlertView.h"
+#import "TTGlobalUICommon.h"
+
+#import "EMSDKFull.h"
+#import "EaseUI.h"
+
+#import "ChatTool.h"
+
+#import "SVProgressHUD.h"
+#import "Masonry.h"
+#import "CategoryWF.h"
+#import "HMTabBarViewController.h"
+#import "AppDelegate.h"
+#import "UserInfonCache.h"
+#import "Masonry.h"
+
+#import "IQKeyboardManager.h"
+
+#import "CustomRefresh.h"
+#import "ExpandHeader.h"
+
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>//引入base相关所有的头文件
+#import <BaiduMapAPI_Map/BMKMapComponent.h>//引入地图功能所有的头文件
+#import <BaiduMapAPI_Search/BMKSearchComponent.h>//引入检索功能所有的头文件
+#import <BaiduMapAPI_Cloud/BMKCloudSearchComponent.h>//引入云检索功能所有的头文件
+#import <BaiduMapAPI_Location/BMKLocationComponent.h>//引入定位功能所有的头文件
+#import <BaiduMapAPI_Utils/BMKUtilsComponent.h>//引入计算工具所有的头文件
+#import <BaiduMapAPI_Radar/BMKRadarComponent.h>//引入周边雷达功能所有的头文件
+#import <BaiduMapAPI_Map/BMKMapView.h>//只引入所需的单个头文件
+
+
+#define DEMO_CALL 1
+//**是否为iOS7start**/
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+
+#define BDAPIKey @"e4012f9ec8f0618034e67799fb251317"
+
+
+/**屏幕的宽高**/
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+#define ScreenH [UIScreen mainScreen].bounds.size.height
+
+/*占位图片*/
+#define PlaceholderImage [UIImage imageNamed:@"position.png"]
+
+/*请求主rooturl*/
+#define RootRequestUrl @"http://121.40.187.218:3000/"
+
+#endif
