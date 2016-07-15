@@ -340,6 +340,12 @@
 		DF6C61281D388F3E009CEAF6 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C60981D388F3E009CEAF6 /* SVRadialGradientLayer.m */; };
 		DF6C612C1D388F51009CEAF6 /* myhtest.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF6C612A1D388F51009CEAF6 /* myhtest.plist */; };
 		DF6C612D1D388F51009CEAF6 /* scenicspot.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DF6C612B1D388F51009CEAF6 /* scenicspot.sqlite */; };
+		DF6C61331D3890DC009CEAF6 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6C61301D3890DC009CEAF6 /* libMobClickLibrary.a */; };
+		DF6C61371D3890E2009CEAF6 /* TTGlobalUICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C61361D3890E2009CEAF6 /* TTGlobalUICommon.m */; };
+		DF6C61401D3890EA009CEAF6 /* sr_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6C61391D3890EA009CEAF6 /* sr_refresh.png */; };
+		DF6C61411D3890EA009CEAF6 /* sr_refresh@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6C613A1D3890EA009CEAF6 /* sr_refresh@2X.png */; };
+		DF6C61421D3890EA009CEAF6 /* SRRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C613D1D3890EA009CEAF6 /* SRRefreshView.m */; };
+		DF6C61431D3890EA009CEAF6 /* SRSlimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C613F1D3890EA009CEAF6 /* SRSlimeView.m */; };
 		DF7C8E201D227C2000C3E994 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7C8E191D227C2000C3E994 /* BaiduMapAPI_Base.framework */; };
 		DF7C8E211D227C2000C3E994 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7C8E1A1D227C2000C3E994 /* BaiduMapAPI_Cloud.framework */; };
 		DF7C8E221D227C2000C3E994 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7C8E1B1D227C2000C3E994 /* BaiduMapAPI_Location.framework */; };
@@ -933,6 +939,18 @@
 		DF6C60981D388F3E009CEAF6 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		DF6C612A1D388F51009CEAF6 /* myhtest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = myhtest.plist; sourceTree = "<group>"; };
 		DF6C612B1D388F51009CEAF6 /* scenicspot.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = scenicspot.sqlite; sourceTree = "<group>"; };
+		DF6C61301D3890DC009CEAF6 /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
+		DF6C61311D3890DC009CEAF6 /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
+		DF6C61321D3890DC009CEAF6 /* MobClickSocialAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClickSocialAnalytics.h; sourceTree = "<group>"; };
+		DF6C61351D3890E2009CEAF6 /* TTGlobalUICommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGlobalUICommon.h; sourceTree = "<group>"; };
+		DF6C61361D3890E2009CEAF6 /* TTGlobalUICommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGlobalUICommon.m; sourceTree = "<group>"; };
+		DF6C61391D3890EA009CEAF6 /* sr_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sr_refresh.png; sourceTree = "<group>"; };
+		DF6C613A1D3890EA009CEAF6 /* sr_refresh@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sr_refresh@2X.png"; sourceTree = "<group>"; };
+		DF6C613B1D3890EA009CEAF6 /* SRDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDefine.h; sourceTree = "<group>"; };
+		DF6C613C1D3890EA009CEAF6 /* SRRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRefreshView.h; sourceTree = "<group>"; };
+		DF6C613D1D3890EA009CEAF6 /* SRRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRefreshView.m; sourceTree = "<group>"; };
+		DF6C613E1D3890EA009CEAF6 /* SRSlimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSlimeView.h; sourceTree = "<group>"; };
+		DF6C613F1D3890EA009CEAF6 /* SRSlimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSlimeView.m; sourceTree = "<group>"; };
 		DF7C8E191D227C2000C3E994 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
 		DF7C8E1A1D227C2000C3E994 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
 		DF7C8E1B1D227C2000C3E994 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
@@ -981,6 +999,7 @@
 				DF84A9991D01549C009F9F98 /* CFNetwork.framework in Frameworks */,
 				DF84A9971D01548C009F9F98 /* AddressBook.framework in Frameworks */,
 				DF7C8E261D227C2000C3E994 /* BaiduMapAPI_Utils.framework in Frameworks */,
+				DF6C61331D3890DC009CEAF6 /* libMobClickLibrary.a in Frameworks */,
 				DF360F091CFFC8D700D5953B /* MobileCoreServices.framework in Frameworks */,
 				DF84A9951D01543D009F9F98 /* SystemConfiguration.framework in Frameworks */,
 				DF84A9931D01542C009F9F98 /* CoreLocation.framework in Frameworks */,
@@ -1054,6 +1073,7 @@
 		DF360ECD1CFFC61400D5953B /* ChatDemoTest */ = {
 			isa = PBXGroup;
 			children = (
+				DF6C612E1D3890B7009CEAF6 /* 3thirdParty */,
 				DF6C5F4E1D388F3E009CEAF6 /* Vendor */,
 				DF6C5E531D388F14009CEAF6 /* Singletion */,
 				DF6C5E521D388EEB009CEAF6 /* Category */,
@@ -2173,6 +2193,49 @@
 			path = Files;
 			sourceTree = "<group>";
 		};
+		DF6C612E1D3890B7009CEAF6 /* 3thirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C61381D3890EA009CEAF6 /* SlimeRefresh */,
+				DF6C61341D3890E2009CEAF6 /* TTGlobalUICommon */,
+				DF6C612F1D3890DC009CEAF6 /* UMeng */,
+			);
+			name = 3thirdParty;
+			sourceTree = "<group>";
+		};
+		DF6C612F1D3890DC009CEAF6 /* UMeng */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C61301D3890DC009CEAF6 /* libMobClickLibrary.a */,
+				DF6C61311D3890DC009CEAF6 /* MobClick.h */,
+				DF6C61321D3890DC009CEAF6 /* MobClickSocialAnalytics.h */,
+			);
+			path = UMeng;
+			sourceTree = "<group>";
+		};
+		DF6C61341D3890E2009CEAF6 /* TTGlobalUICommon */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C61351D3890E2009CEAF6 /* TTGlobalUICommon.h */,
+				DF6C61361D3890E2009CEAF6 /* TTGlobalUICommon.m */,
+			);
+			path = TTGlobalUICommon;
+			sourceTree = "<group>";
+		};
+		DF6C61381D3890EA009CEAF6 /* SlimeRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C61391D3890EA009CEAF6 /* sr_refresh.png */,
+				DF6C613A1D3890EA009CEAF6 /* sr_refresh@2X.png */,
+				DF6C613B1D3890EA009CEAF6 /* SRDefine.h */,
+				DF6C613C1D3890EA009CEAF6 /* SRRefreshView.h */,
+				DF6C613D1D3890EA009CEAF6 /* SRRefreshView.m */,
+				DF6C613E1D3890EA009CEAF6 /* SRSlimeView.h */,
+				DF6C613F1D3890EA009CEAF6 /* SRSlimeView.m */,
+			);
+			path = SlimeRefresh;
+			sourceTree = "<group>";
+		};
 		DF7C8E181D227C2000C3E994 /* BaiduMap_IOSSDK_v3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2338,6 +2401,7 @@
 				DF6C5F421D388F1B009CEAF6 /* tabbar_contacts.png in Resources */,
 				DF6C5E261D388E75009CEAF6 /* TrainSearch.storyboard in Resources */,
 				DF6C5E4A1D388E75009CEAF6 /* Setting.storyboard in Resources */,
+				DF6C61411D3890EA009CEAF6 /* sr_refresh@2X.png in Resources */,
 				DF6C5F301D388F1B009CEAF6 /* delete@2x.png in Resources */,
 				DF6C5F3F1D388F1B009CEAF6 /* tabbar_chats@2x.png in Resources */,
 				DF6C5EE51D388F1B009CEAF6 /* chatListCellHead@2x.png in Resources */,
@@ -2358,6 +2422,7 @@
 				DF6C5EF31D388F1B009CEAF6 /* chat_location_detail_disclosure@2x.png in Resources */,
 				DF6C5F141D388F1B009CEAF6 /* icon_018.gif in Resources */,
 				DF6C5E471D388E75009CEAF6 /* RegistViewController.xib in Resources */,
+				DF6C61401D3890EA009CEAF6 /* sr_refresh.png in Resources */,
 				DF6C5F201D388F1B009CEAF6 /* icon_027.gif in Resources */,
 				DF6C5F0D1D388F1B009CEAF6 /* icon_007_cover.png in Resources */,
 				DF6C5F111D388F1B009CEAF6 /* icon_012_cover.png in Resources */,
@@ -2470,6 +2535,7 @@
 				DF6C60E51D388F3E009CEAF6 /* MJRefreshAutoNormalFooter.m in Sources */,
 				DF6C60DA1D388F3E009CEAF6 /* MASViewAttribute.m in Sources */,
 				DF6C5E5E1D388F14009CEAF6 /* ChatTool.m in Sources */,
+				DF6C61371D3890E2009CEAF6 /* TTGlobalUICommon.m in Sources */,
 				DF6C60DD1D388F3E009CEAF6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				DF6C611D1D388F3E009CEAF6 /* UIImage+GIF.m in Sources */,
 				DF6C60AA1D388F3E009CEAF6 /* UIImage+Expanded.m in Sources */,
@@ -2623,6 +2689,7 @@
 				DF6C60C91D388F3E009CEAF6 /* IQUIView+Hierarchy.m in Sources */,
 				DF6C60D71D388F3E009CEAF6 /* MASConstraint.m in Sources */,
 				DF6C5E411D388E75009CEAF6 /* MJDIYAutoFooter.m in Sources */,
+				DF6C61421D3890EA009CEAF6 /* SRRefreshView.m in Sources */,
 				DF6C60BF1D388F3E009CEAF6 /* FSCalendarScopeHandle.m in Sources */,
 				DF6C60EF1D388F3E009CEAF6 /* NSBundle+MJRefresh.m in Sources */,
 				DF6C61101D388F3E009CEAF6 /* SDCollectionViewCell.m in Sources */,
@@ -2644,6 +2711,7 @@
 				DF6C610A1D388F3E009CEAF6 /* HZWaitingView.m in Sources */,
 				DF6C5E3E1D388E75009CEAF6 /* MJChiBaoZiFooter.m in Sources */,
 				DF6C60A11D388F3E009CEAF6 /* UIView+WF.m in Sources */,
+				DF6C61431D3890EA009CEAF6 /* SRSlimeView.m in Sources */,
 				DF6C61051D388F3E009CEAF6 /* UIWebView+AFNetworking.m in Sources */,
 				DF6C5E4D1D388E75009CEAF6 /* UserInfoSettingViewController.m in Sources */,
 				DF6C5E341D388E75009CEAF6 /* TrainSearchDetailTableView.m in Sources */,
