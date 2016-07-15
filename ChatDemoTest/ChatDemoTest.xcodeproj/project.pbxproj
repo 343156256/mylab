@@ -23,6 +23,61 @@
 		DF360F111CFFC90400D5953B /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF360F101CFFC90400D5953B /* libstdc++.6.0.9.tbd */; };
 		DF360F131CFFC90F00D5953B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF360F121CFFC90F00D5953B /* libsqlite3.tbd */; };
 		DF360F151CFFC91700D5953B /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF360F141CFFC91700D5953B /* libiconv.tbd */; };
+		DF6C5E1B1D388E75009CEAF6 /* ChatListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DA71D388E75009CEAF6 /* ChatListTableViewController.m */; };
+		DF6C5E1C1D388E75009CEAF6 /* HMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DAA1D388E75009CEAF6 /* HMNavigationController.m */; };
+		DF6C5E1D1D388E75009CEAF6 /* HMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DAC1D388E75009CEAF6 /* HMTabBar.m */; };
+		DF6C5E1E1D388E75009CEAF6 /* HMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DAE1D388E75009CEAF6 /* HMTabBarViewController.m */; };
+		DF6C5E1F1D388E75009CEAF6 /* ButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DB21D388E75009CEAF6 /* ButtonsViewController.m */; };
+		DF6C5E201D388E75009CEAF6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DB41D388E75009CEAF6 /* HomeViewController.m */; };
+		DF6C5E211D388E75009CEAF6 /* NearbySpotsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DB61D388E75009CEAF6 /* NearbySpotsTableViewController.m */; };
+		DF6C5E221D388E75009CEAF6 /* SearchMySpotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DB81D388E75009CEAF6 /* SearchMySpotsViewController.m */; };
+		DF6C5E231D388E75009CEAF6 /* SearchMySpotsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF6C5DB91D388E75009CEAF6 /* SearchMySpotsViewController.xib */; };
+		DF6C5E241D388E75009CEAF6 /* SpotDetailWebviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DBB1D388E75009CEAF6 /* SpotDetailWebviewController.m */; };
+		DF6C5E251D388E75009CEAF6 /* SpotsSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DBD1D388E75009CEAF6 /* SpotsSearchViewController.m */; };
+		DF6C5E261D388E75009CEAF6 /* TrainSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6C5DBE1D388E75009CEAF6 /* TrainSearch.storyboard */; };
+		DF6C5E271D388E75009CEAF6 /* TrainSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DC01D388E75009CEAF6 /* TrainSearchViewController.m */; };
+		DF6C5E281D388E75009CEAF6 /* TravelsDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DC21D388E75009CEAF6 /* TravelsDetailTableViewController.m */; };
+		DF6C5E291D388E75009CEAF6 /* WeatherSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6C5DC31D388E75009CEAF6 /* WeatherSearch.storyboard */; };
+		DF6C5E2A1D388E75009CEAF6 /* WeatherSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DC51D388E75009CEAF6 /* WeatherSearchViewController.m */; };
+		DF6C5E2B1D388E75009CEAF6 /* HomeTravelsCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DC81D388E75009CEAF6 /* HomeTravelsCellModel.m */; };
+		DF6C5E2C1D388E75009CEAF6 /* ScenicspotListDataInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DCA1D388E75009CEAF6 /* ScenicspotListDataInfo.m */; };
+		DF6C5E2D1D388E75009CEAF6 /* SpotsSearchPageDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DCC1D388E75009CEAF6 /* SpotsSearchPageDataSource.m */; };
+		DF6C5E2E1D388E75009CEAF6 /* CategorySearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DCF1D388E75009CEAF6 /* CategorySearchView.m */; };
+		DF6C5E2F1D388E75009CEAF6 /* HomeTravelsCunstomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DD11D388E75009CEAF6 /* HomeTravelsCunstomTableViewCell.m */; };
+		DF6C5E301D388E75009CEAF6 /* HomeTravelsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DD31D388E75009CEAF6 /* HomeTravelsTableViewCell.m */; };
+		DF6C5E311D388E75009CEAF6 /* HomeTravelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF6C5DD41D388E75009CEAF6 /* HomeTravelsTableViewCell.xib */; };
+		DF6C5E321D388E75009CEAF6 /* TrainDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DD61D388E75009CEAF6 /* TrainDetailTableViewCell.m */; };
+		DF6C5E331D388E75009CEAF6 /* TrainDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF6C5DD71D388E75009CEAF6 /* TrainDetailTableViewCell.xib */; };
+		DF6C5E341D388E75009CEAF6 /* TrainSearchDetailTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DD91D388E75009CEAF6 /* TrainSearchDetailTableView.m */; };
+		DF6C5E351D388E75009CEAF6 /* travelsDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6C5DDA1D388E75009CEAF6 /* travelsDetail.storyboard */; };
+		DF6C5E361D388E75009CEAF6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DDC1D388E75009CEAF6 /* LoginViewController.m */; };
+		DF6C5E371D388E75009CEAF6 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF6C5DDD1D388E75009CEAF6 /* LoginViewController.xib */; };
+		DF6C5E381D388E75009CEAF6 /* TCMainServerCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DE11D388E75009CEAF6 /* TCMainServerCenter.m */; };
+		DF6C5E391D388E75009CEAF6 /* TCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DE31D388E75009CEAF6 /* TCResponse.m */; };
+		DF6C5E3A1D388E75009CEAF6 /* TCSignatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DE51D388E75009CEAF6 /* TCSignatureGenerator.m */; };
+		DF6C5E3B1D388E75009CEAF6 /* MyImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DE91D388E75009CEAF6 /* MyImagePicker.m */; };
+		DF6C5E3C1D388E75009CEAF6 /* MySimplePhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DEB1D388E75009CEAF6 /* MySimplePhotoBrowser.m */; };
+		DF6C5E3D1D388E75009CEAF6 /* UIViewController+Example.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DEF1D388E75009CEAF6 /* UIViewController+Example.m */; };
+		DF6C5E3E1D388E75009CEAF6 /* MJChiBaoZiFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DF31D388E75009CEAF6 /* MJChiBaoZiFooter.m */; };
+		DF6C5E3F1D388E75009CEAF6 /* MJChiBaoZiFooter2.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DF51D388E75009CEAF6 /* MJChiBaoZiFooter2.m */; };
+		DF6C5E401D388E75009CEAF6 /* MJChiBaoZiHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DF71D388E75009CEAF6 /* MJChiBaoZiHeader.m */; };
+		DF6C5E411D388E75009CEAF6 /* MJDIYAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DF91D388E75009CEAF6 /* MJDIYAutoFooter.m */; };
+		DF6C5E421D388E75009CEAF6 /* MJDIYBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DFB1D388E75009CEAF6 /* MJDIYBackFooter.m */; };
+		DF6C5E431D388E75009CEAF6 /* MJDIYHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5DFD1D388E75009CEAF6 /* MJDIYHeader.m */; };
+		DF6C5E441D388E75009CEAF6 /* MySegmentControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5E001D388E75009CEAF6 /* MySegmentControlView.m */; };
+		DF6C5E451D388E75009CEAF6 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5E021D388E75009CEAF6 /* UIView+Extension.m */; };
+		DF6C5E461D388E75009CEAF6 /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5E041D388E75009CEAF6 /* RegistViewController.m */; };
+		DF6C5E471D388E75009CEAF6 /* RegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF6C5E051D388E75009CEAF6 /* RegistViewController.xib */; };
+		DF6C5E481D388E75009CEAF6 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5E081D388E75009CEAF6 /* AboutUsViewController.m */; };
+		DF6C5E491D388E75009CEAF6 /* IdeaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5E0A1D388E75009CEAF6 /* IdeaViewController.m */; };
+		DF6C5E4A1D388E75009CEAF6 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6C5E0B1D388E75009CEAF6 /* Setting.storyboard */; };
+		DF6C5E4B1D388E75009CEAF6 /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5E0D1D388E75009CEAF6 /* SettingTableViewController.m */; };
+		DF6C5E4C1D388E75009CEAF6 /* StatementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5E0F1D388E75009CEAF6 /* StatementViewController.m */; };
+		DF6C5E4D1D388E75009CEAF6 /* UserInfoSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5E111D388E75009CEAF6 /* UserInfoSettingViewController.m */; };
+		DF6C5E4E1D388E75009CEAF6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5E141D388E75009CEAF6 /* FirstViewController.m */; };
+		DF6C5E4F1D388E75009CEAF6 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5E161D388E75009CEAF6 /* FourthViewController.m */; };
+		DF6C5E501D388E75009CEAF6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5E181D388E75009CEAF6 /* SecondViewController.m */; };
+		DF6C5E511D388E75009CEAF6 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C5E1A1D388E75009CEAF6 /* ThirdViewController.m */; };
 		DF7C8E201D227C2000C3E994 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7C8E191D227C2000C3E994 /* BaiduMapAPI_Base.framework */; };
 		DF7C8E211D227C2000C3E994 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7C8E1A1D227C2000C3E994 /* BaiduMapAPI_Cloud.framework */; };
 		DF7C8E221D227C2000C3E994 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7C8E1B1D227C2000C3E994 /* BaiduMapAPI_Location.framework */; };
@@ -93,6 +148,109 @@
 		DF360F101CFFC90400D5953B /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		DF360F121CFFC90F00D5953B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		DF360F141CFFC91700D5953B /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		DF6C5DA61D388E75009CEAF6 /* ChatListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatListTableViewController.h; sourceTree = "<group>"; };
+		DF6C5DA71D388E75009CEAF6 /* ChatListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatListTableViewController.m; sourceTree = "<group>"; };
+		DF6C5DA91D388E75009CEAF6 /* HMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNavigationController.h; sourceTree = "<group>"; };
+		DF6C5DAA1D388E75009CEAF6 /* HMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNavigationController.m; sourceTree = "<group>"; };
+		DF6C5DAB1D388E75009CEAF6 /* HMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTabBar.h; sourceTree = "<group>"; };
+		DF6C5DAC1D388E75009CEAF6 /* HMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTabBar.m; sourceTree = "<group>"; };
+		DF6C5DAD1D388E75009CEAF6 /* HMTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTabBarViewController.h; sourceTree = "<group>"; };
+		DF6C5DAE1D388E75009CEAF6 /* HMTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTabBarViewController.m; sourceTree = "<group>"; };
+		DF6C5DB11D388E75009CEAF6 /* ButtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonsViewController.h; sourceTree = "<group>"; };
+		DF6C5DB21D388E75009CEAF6 /* ButtonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonsViewController.m; sourceTree = "<group>"; };
+		DF6C5DB31D388E75009CEAF6 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DF6C5DB41D388E75009CEAF6 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DF6C5DB51D388E75009CEAF6 /* NearbySpotsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbySpotsTableViewController.h; sourceTree = "<group>"; };
+		DF6C5DB61D388E75009CEAF6 /* NearbySpotsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbySpotsTableViewController.m; sourceTree = "<group>"; };
+		DF6C5DB71D388E75009CEAF6 /* SearchMySpotsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchMySpotsViewController.h; sourceTree = "<group>"; };
+		DF6C5DB81D388E75009CEAF6 /* SearchMySpotsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchMySpotsViewController.m; sourceTree = "<group>"; };
+		DF6C5DB91D388E75009CEAF6 /* SearchMySpotsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchMySpotsViewController.xib; sourceTree = "<group>"; };
+		DF6C5DBA1D388E75009CEAF6 /* SpotDetailWebviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotDetailWebviewController.h; sourceTree = "<group>"; };
+		DF6C5DBB1D388E75009CEAF6 /* SpotDetailWebviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotDetailWebviewController.m; sourceTree = "<group>"; };
+		DF6C5DBC1D388E75009CEAF6 /* SpotsSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotsSearchViewController.h; sourceTree = "<group>"; };
+		DF6C5DBD1D388E75009CEAF6 /* SpotsSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotsSearchViewController.m; sourceTree = "<group>"; };
+		DF6C5DBE1D388E75009CEAF6 /* TrainSearch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TrainSearch.storyboard; sourceTree = "<group>"; };
+		DF6C5DBF1D388E75009CEAF6 /* TrainSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainSearchViewController.h; sourceTree = "<group>"; };
+		DF6C5DC01D388E75009CEAF6 /* TrainSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainSearchViewController.m; sourceTree = "<group>"; };
+		DF6C5DC11D388E75009CEAF6 /* TravelsDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelsDetailTableViewController.h; sourceTree = "<group>"; };
+		DF6C5DC21D388E75009CEAF6 /* TravelsDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelsDetailTableViewController.m; sourceTree = "<group>"; };
+		DF6C5DC31D388E75009CEAF6 /* WeatherSearch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WeatherSearch.storyboard; sourceTree = "<group>"; };
+		DF6C5DC41D388E75009CEAF6 /* WeatherSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherSearchViewController.h; sourceTree = "<group>"; };
+		DF6C5DC51D388E75009CEAF6 /* WeatherSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherSearchViewController.m; sourceTree = "<group>"; };
+		DF6C5DC71D388E75009CEAF6 /* HomeTravelsCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTravelsCellModel.h; sourceTree = "<group>"; };
+		DF6C5DC81D388E75009CEAF6 /* HomeTravelsCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTravelsCellModel.m; sourceTree = "<group>"; };
+		DF6C5DC91D388E75009CEAF6 /* ScenicspotListDataInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicspotListDataInfo.h; sourceTree = "<group>"; };
+		DF6C5DCA1D388E75009CEAF6 /* ScenicspotListDataInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicspotListDataInfo.m; sourceTree = "<group>"; };
+		DF6C5DCB1D388E75009CEAF6 /* SpotsSearchPageDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotsSearchPageDataSource.h; sourceTree = "<group>"; };
+		DF6C5DCC1D388E75009CEAF6 /* SpotsSearchPageDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotsSearchPageDataSource.m; sourceTree = "<group>"; };
+		DF6C5DCE1D388E75009CEAF6 /* CategorySearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategorySearchView.h; sourceTree = "<group>"; };
+		DF6C5DCF1D388E75009CEAF6 /* CategorySearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategorySearchView.m; sourceTree = "<group>"; };
+		DF6C5DD01D388E75009CEAF6 /* HomeTravelsCunstomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTravelsCunstomTableViewCell.h; sourceTree = "<group>"; };
+		DF6C5DD11D388E75009CEAF6 /* HomeTravelsCunstomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTravelsCunstomTableViewCell.m; sourceTree = "<group>"; };
+		DF6C5DD21D388E75009CEAF6 /* HomeTravelsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTravelsTableViewCell.h; sourceTree = "<group>"; };
+		DF6C5DD31D388E75009CEAF6 /* HomeTravelsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTravelsTableViewCell.m; sourceTree = "<group>"; };
+		DF6C5DD41D388E75009CEAF6 /* HomeTravelsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTravelsTableViewCell.xib; sourceTree = "<group>"; };
+		DF6C5DD51D388E75009CEAF6 /* TrainDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainDetailTableViewCell.h; sourceTree = "<group>"; };
+		DF6C5DD61D388E75009CEAF6 /* TrainDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainDetailTableViewCell.m; sourceTree = "<group>"; };
+		DF6C5DD71D388E75009CEAF6 /* TrainDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrainDetailTableViewCell.xib; sourceTree = "<group>"; };
+		DF6C5DD81D388E75009CEAF6 /* TrainSearchDetailTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainSearchDetailTableView.h; sourceTree = "<group>"; };
+		DF6C5DD91D388E75009CEAF6 /* TrainSearchDetailTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainSearchDetailTableView.m; sourceTree = "<group>"; };
+		DF6C5DDA1D388E75009CEAF6 /* travelsDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = travelsDetail.storyboard; sourceTree = "<group>"; };
+		DF6C5DDB1D388E75009CEAF6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DF6C5DDC1D388E75009CEAF6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DF6C5DDD1D388E75009CEAF6 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		DF6C5DDF1D388E75009CEAF6 /* TCAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCAPI.h; sourceTree = "<group>"; };
+		DF6C5DE01D388E75009CEAF6 /* TCMainServerCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMainServerCenter.h; sourceTree = "<group>"; };
+		DF6C5DE11D388E75009CEAF6 /* TCMainServerCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMainServerCenter.m; sourceTree = "<group>"; };
+		DF6C5DE21D388E75009CEAF6 /* TCResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCResponse.h; sourceTree = "<group>"; };
+		DF6C5DE31D388E75009CEAF6 /* TCResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCResponse.m; sourceTree = "<group>"; };
+		DF6C5DE41D388E75009CEAF6 /* TCSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSignatureGenerator.h; sourceTree = "<group>"; };
+		DF6C5DE51D388E75009CEAF6 /* TCSignatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSignatureGenerator.m; sourceTree = "<group>"; };
+		DF6C5DE81D388E75009CEAF6 /* MyImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImagePicker.h; sourceTree = "<group>"; };
+		DF6C5DE91D388E75009CEAF6 /* MyImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImagePicker.m; sourceTree = "<group>"; };
+		DF6C5DEA1D388E75009CEAF6 /* MySimplePhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySimplePhotoBrowser.h; sourceTree = "<group>"; };
+		DF6C5DEB1D388E75009CEAF6 /* MySimplePhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySimplePhotoBrowser.m; sourceTree = "<group>"; };
+		DF6C5DEE1D388E75009CEAF6 /* UIViewController+Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Example.h"; sourceTree = "<group>"; };
+		DF6C5DEF1D388E75009CEAF6 /* UIViewController+Example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Example.m"; sourceTree = "<group>"; };
+		DF6C5DF11D388E75009CEAF6 /* CustomRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRefresh.h; sourceTree = "<group>"; };
+		DF6C5DF21D388E75009CEAF6 /* MJChiBaoZiFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJChiBaoZiFooter.h; sourceTree = "<group>"; };
+		DF6C5DF31D388E75009CEAF6 /* MJChiBaoZiFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJChiBaoZiFooter.m; sourceTree = "<group>"; };
+		DF6C5DF41D388E75009CEAF6 /* MJChiBaoZiFooter2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJChiBaoZiFooter2.h; sourceTree = "<group>"; };
+		DF6C5DF51D388E75009CEAF6 /* MJChiBaoZiFooter2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJChiBaoZiFooter2.m; sourceTree = "<group>"; };
+		DF6C5DF61D388E75009CEAF6 /* MJChiBaoZiHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJChiBaoZiHeader.h; sourceTree = "<group>"; };
+		DF6C5DF71D388E75009CEAF6 /* MJChiBaoZiHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJChiBaoZiHeader.m; sourceTree = "<group>"; };
+		DF6C5DF81D388E75009CEAF6 /* MJDIYAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDIYAutoFooter.h; sourceTree = "<group>"; };
+		DF6C5DF91D388E75009CEAF6 /* MJDIYAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDIYAutoFooter.m; sourceTree = "<group>"; };
+		DF6C5DFA1D388E75009CEAF6 /* MJDIYBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDIYBackFooter.h; sourceTree = "<group>"; };
+		DF6C5DFB1D388E75009CEAF6 /* MJDIYBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDIYBackFooter.m; sourceTree = "<group>"; };
+		DF6C5DFC1D388E75009CEAF6 /* MJDIYHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDIYHeader.h; sourceTree = "<group>"; };
+		DF6C5DFD1D388E75009CEAF6 /* MJDIYHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDIYHeader.m; sourceTree = "<group>"; };
+		DF6C5DFF1D388E75009CEAF6 /* MySegmentControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySegmentControlView.h; sourceTree = "<group>"; };
+		DF6C5E001D388E75009CEAF6 /* MySegmentControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySegmentControlView.m; sourceTree = "<group>"; };
+		DF6C5E011D388E75009CEAF6 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		DF6C5E021D388E75009CEAF6 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		DF6C5E031D388E75009CEAF6 /* RegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		DF6C5E041D388E75009CEAF6 /* RegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
+		DF6C5E051D388E75009CEAF6 /* RegistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistViewController.xib; sourceTree = "<group>"; };
+		DF6C5E071D388E75009CEAF6 /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		DF6C5E081D388E75009CEAF6 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		DF6C5E091D388E75009CEAF6 /* IdeaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdeaViewController.h; sourceTree = "<group>"; };
+		DF6C5E0A1D388E75009CEAF6 /* IdeaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdeaViewController.m; sourceTree = "<group>"; };
+		DF6C5E0B1D388E75009CEAF6 /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		DF6C5E0C1D388E75009CEAF6 /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
+		DF6C5E0D1D388E75009CEAF6 /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
+		DF6C5E0E1D388E75009CEAF6 /* StatementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatementViewController.h; sourceTree = "<group>"; };
+		DF6C5E0F1D388E75009CEAF6 /* StatementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatementViewController.m; sourceTree = "<group>"; };
+		DF6C5E101D388E75009CEAF6 /* UserInfoSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoSettingViewController.h; sourceTree = "<group>"; };
+		DF6C5E111D388E75009CEAF6 /* UserInfoSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoSettingViewController.m; sourceTree = "<group>"; };
+		DF6C5E131D388E75009CEAF6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DF6C5E141D388E75009CEAF6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DF6C5E151D388E75009CEAF6 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		DF6C5E161D388E75009CEAF6 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		DF6C5E171D388E75009CEAF6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DF6C5E181D388E75009CEAF6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DF6C5E191D388E75009CEAF6 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		DF6C5E1A1D388E75009CEAF6 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		DF7C8E191D227C2000C3E994 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
 		DF7C8E1A1D227C2000C3E994 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
 		DF7C8E1B1D227C2000C3E994 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
@@ -214,6 +372,7 @@
 		DF360ECD1CFFC61400D5953B /* ChatDemoTest */ = {
 			isa = PBXGroup;
 			children = (
+				DF6C5DA41D388E75009CEAF6 /* Class */,
 				DF360ED11CFFC61400D5953B /* AppDelegate.h */,
 				DF360ED21CFFC61400D5953B /* AppDelegate.mm */,
 				DF360EDA1CFFC61400D5953B /* Assets.xcassets */,
@@ -280,6 +439,236 @@
 				DF360F021CFFC89800D5953B /* CoreMedia.framework */,
 			);
 			path = FrameWorks;
+			sourceTree = "<group>";
+		};
+		DF6C5DA41D388E75009CEAF6 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C5DA51D388E75009CEAF6 /* ChatList */,
+				DF6C5DA81D388E75009CEAF6 /* HMTabbar */,
+				DF6C5DAF1D388E75009CEAF6 /* Home */,
+				DF6C5DDB1D388E75009CEAF6 /* LoginViewController.h */,
+				DF6C5DDC1D388E75009CEAF6 /* LoginViewController.m */,
+				DF6C5DDD1D388E75009CEAF6 /* LoginViewController.xib */,
+				DF6C5DDE1D388E75009CEAF6 /* NetworkLayer */,
+				DF6C5DE61D388E75009CEAF6 /* Other */,
+				DF6C5E031D388E75009CEAF6 /* RegistViewController.h */,
+				DF6C5E041D388E75009CEAF6 /* RegistViewController.m */,
+				DF6C5E051D388E75009CEAF6 /* RegistViewController.xib */,
+				DF6C5E061D388E75009CEAF6 /* Setting */,
+				DF6C5E121D388E75009CEAF6 /* TestVIew */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		DF6C5DA51D388E75009CEAF6 /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C5DA61D388E75009CEAF6 /* ChatListTableViewController.h */,
+				DF6C5DA71D388E75009CEAF6 /* ChatListTableViewController.m */,
+			);
+			path = ChatList;
+			sourceTree = "<group>";
+		};
+		DF6C5DA81D388E75009CEAF6 /* HMTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C5DA91D388E75009CEAF6 /* HMNavigationController.h */,
+				DF6C5DAA1D388E75009CEAF6 /* HMNavigationController.m */,
+				DF6C5DAB1D388E75009CEAF6 /* HMTabBar.h */,
+				DF6C5DAC1D388E75009CEAF6 /* HMTabBar.m */,
+				DF6C5DAD1D388E75009CEAF6 /* HMTabBarViewController.h */,
+				DF6C5DAE1D388E75009CEAF6 /* HMTabBarViewController.m */,
+			);
+			path = HMTabbar;
+			sourceTree = "<group>";
+		};
+		DF6C5DAF1D388E75009CEAF6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C5DB01D388E75009CEAF6 /* Controller */,
+				DF6C5DC61D388E75009CEAF6 /* Model */,
+				DF6C5DCD1D388E75009CEAF6 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DF6C5DB01D388E75009CEAF6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C5DB11D388E75009CEAF6 /* ButtonsViewController.h */,
+				DF6C5DB21D388E75009CEAF6 /* ButtonsViewController.m */,
+				DF6C5DB31D388E75009CEAF6 /* HomeViewController.h */,
+				DF6C5DB41D388E75009CEAF6 /* HomeViewController.m */,
+				DF6C5DB51D388E75009CEAF6 /* NearbySpotsTableViewController.h */,
+				DF6C5DB61D388E75009CEAF6 /* NearbySpotsTableViewController.m */,
+				DF6C5DB71D388E75009CEAF6 /* SearchMySpotsViewController.h */,
+				DF6C5DB81D388E75009CEAF6 /* SearchMySpotsViewController.m */,
+				DF6C5DB91D388E75009CEAF6 /* SearchMySpotsViewController.xib */,
+				DF6C5DBA1D388E75009CEAF6 /* SpotDetailWebviewController.h */,
+				DF6C5DBB1D388E75009CEAF6 /* SpotDetailWebviewController.m */,
+				DF6C5DBC1D388E75009CEAF6 /* SpotsSearchViewController.h */,
+				DF6C5DBD1D388E75009CEAF6 /* SpotsSearchViewController.m */,
+				DF6C5DBE1D388E75009CEAF6 /* TrainSearch.storyboard */,
+				DF6C5DBF1D388E75009CEAF6 /* TrainSearchViewController.h */,
+				DF6C5DC01D388E75009CEAF6 /* TrainSearchViewController.m */,
+				DF6C5DC11D388E75009CEAF6 /* TravelsDetailTableViewController.h */,
+				DF6C5DC21D388E75009CEAF6 /* TravelsDetailTableViewController.m */,
+				DF6C5DC31D388E75009CEAF6 /* WeatherSearch.storyboard */,
+				DF6C5DC41D388E75009CEAF6 /* WeatherSearchViewController.h */,
+				DF6C5DC51D388E75009CEAF6 /* WeatherSearchViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF6C5DC61D388E75009CEAF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C5DC71D388E75009CEAF6 /* HomeTravelsCellModel.h */,
+				DF6C5DC81D388E75009CEAF6 /* HomeTravelsCellModel.m */,
+				DF6C5DC91D388E75009CEAF6 /* ScenicspotListDataInfo.h */,
+				DF6C5DCA1D388E75009CEAF6 /* ScenicspotListDataInfo.m */,
+				DF6C5DCB1D388E75009CEAF6 /* SpotsSearchPageDataSource.h */,
+				DF6C5DCC1D388E75009CEAF6 /* SpotsSearchPageDataSource.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF6C5DCD1D388E75009CEAF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C5DCE1D388E75009CEAF6 /* CategorySearchView.h */,
+				DF6C5DCF1D388E75009CEAF6 /* CategorySearchView.m */,
+				DF6C5DD01D388E75009CEAF6 /* HomeTravelsCunstomTableViewCell.h */,
+				DF6C5DD11D388E75009CEAF6 /* HomeTravelsCunstomTableViewCell.m */,
+				DF6C5DD21D388E75009CEAF6 /* HomeTravelsTableViewCell.h */,
+				DF6C5DD31D388E75009CEAF6 /* HomeTravelsTableViewCell.m */,
+				DF6C5DD41D388E75009CEAF6 /* HomeTravelsTableViewCell.xib */,
+				DF6C5DD51D388E75009CEAF6 /* TrainDetailTableViewCell.h */,
+				DF6C5DD61D388E75009CEAF6 /* TrainDetailTableViewCell.m */,
+				DF6C5DD71D388E75009CEAF6 /* TrainDetailTableViewCell.xib */,
+				DF6C5DD81D388E75009CEAF6 /* TrainSearchDetailTableView.h */,
+				DF6C5DD91D388E75009CEAF6 /* TrainSearchDetailTableView.m */,
+				DF6C5DDA1D388E75009CEAF6 /* travelsDetail.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF6C5DDE1D388E75009CEAF6 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C5DDF1D388E75009CEAF6 /* TCAPI.h */,
+				DF6C5DE01D388E75009CEAF6 /* TCMainServerCenter.h */,
+				DF6C5DE11D388E75009CEAF6 /* TCMainServerCenter.m */,
+				DF6C5DE21D388E75009CEAF6 /* TCResponse.h */,
+				DF6C5DE31D388E75009CEAF6 /* TCResponse.m */,
+				DF6C5DE41D388E75009CEAF6 /* TCSignatureGenerator.h */,
+				DF6C5DE51D388E75009CEAF6 /* TCSignatureGenerator.m */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		DF6C5DE61D388E75009CEAF6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C5DE71D388E75009CEAF6 /* ControlsBase */,
+				DF6C5DEC1D388E75009CEAF6 /* Refresh */,
+				DF6C5DFE1D388E75009CEAF6 /* SegmentControl */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DF6C5DE71D388E75009CEAF6 /* ControlsBase */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C5DE81D388E75009CEAF6 /* MyImagePicker.h */,
+				DF6C5DE91D388E75009CEAF6 /* MyImagePicker.m */,
+				DF6C5DEA1D388E75009CEAF6 /* MySimplePhotoBrowser.h */,
+				DF6C5DEB1D388E75009CEAF6 /* MySimplePhotoBrowser.m */,
+			);
+			path = ControlsBase;
+			sourceTree = "<group>";
+		};
+		DF6C5DEC1D388E75009CEAF6 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C5DED1D388E75009CEAF6 /* Category */,
+				DF6C5DF01D388E75009CEAF6 /* DIY */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		DF6C5DED1D388E75009CEAF6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C5DEE1D388E75009CEAF6 /* UIViewController+Example.h */,
+				DF6C5DEF1D388E75009CEAF6 /* UIViewController+Example.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DF6C5DF01D388E75009CEAF6 /* DIY */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C5DF11D388E75009CEAF6 /* CustomRefresh.h */,
+				DF6C5DF21D388E75009CEAF6 /* MJChiBaoZiFooter.h */,
+				DF6C5DF31D388E75009CEAF6 /* MJChiBaoZiFooter.m */,
+				DF6C5DF41D388E75009CEAF6 /* MJChiBaoZiFooter2.h */,
+				DF6C5DF51D388E75009CEAF6 /* MJChiBaoZiFooter2.m */,
+				DF6C5DF61D388E75009CEAF6 /* MJChiBaoZiHeader.h */,
+				DF6C5DF71D388E75009CEAF6 /* MJChiBaoZiHeader.m */,
+				DF6C5DF81D388E75009CEAF6 /* MJDIYAutoFooter.h */,
+				DF6C5DF91D388E75009CEAF6 /* MJDIYAutoFooter.m */,
+				DF6C5DFA1D388E75009CEAF6 /* MJDIYBackFooter.h */,
+				DF6C5DFB1D388E75009CEAF6 /* MJDIYBackFooter.m */,
+				DF6C5DFC1D388E75009CEAF6 /* MJDIYHeader.h */,
+				DF6C5DFD1D388E75009CEAF6 /* MJDIYHeader.m */,
+			);
+			path = DIY;
+			sourceTree = "<group>";
+		};
+		DF6C5DFE1D388E75009CEAF6 /* SegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C5DFF1D388E75009CEAF6 /* MySegmentControlView.h */,
+				DF6C5E001D388E75009CEAF6 /* MySegmentControlView.m */,
+				DF6C5E011D388E75009CEAF6 /* UIView+Extension.h */,
+				DF6C5E021D388E75009CEAF6 /* UIView+Extension.m */,
+			);
+			path = SegmentControl;
+			sourceTree = "<group>";
+		};
+		DF6C5E061D388E75009CEAF6 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C5E071D388E75009CEAF6 /* AboutUsViewController.h */,
+				DF6C5E081D388E75009CEAF6 /* AboutUsViewController.m */,
+				DF6C5E091D388E75009CEAF6 /* IdeaViewController.h */,
+				DF6C5E0A1D388E75009CEAF6 /* IdeaViewController.m */,
+				DF6C5E0B1D388E75009CEAF6 /* Setting.storyboard */,
+				DF6C5E0C1D388E75009CEAF6 /* SettingTableViewController.h */,
+				DF6C5E0D1D388E75009CEAF6 /* SettingTableViewController.m */,
+				DF6C5E0E1D388E75009CEAF6 /* StatementViewController.h */,
+				DF6C5E0F1D388E75009CEAF6 /* StatementViewController.m */,
+				DF6C5E101D388E75009CEAF6 /* UserInfoSettingViewController.h */,
+				DF6C5E111D388E75009CEAF6 /* UserInfoSettingViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		DF6C5E121D388E75009CEAF6 /* TestVIew */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C5E131D388E75009CEAF6 /* FirstViewController.h */,
+				DF6C5E141D388E75009CEAF6 /* FirstViewController.m */,
+				DF6C5E151D388E75009CEAF6 /* FourthViewController.h */,
+				DF6C5E161D388E75009CEAF6 /* FourthViewController.m */,
+				DF6C5E171D388E75009CEAF6 /* SecondViewController.h */,
+				DF6C5E181D388E75009CEAF6 /* SecondViewController.m */,
+				DF6C5E191D388E75009CEAF6 /* ThirdViewController.h */,
+				DF6C5E1A1D388E75009CEAF6 /* ThirdViewController.m */,
+			);
+			path = TestVIew;
 			sourceTree = "<group>";
 		};
 		DF7C8E181D227C2000C3E994 /* BaiduMap_IOSSDK_v3 */ = {
@@ -409,10 +798,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6C5E231D388E75009CEAF6 /* SearchMySpotsViewController.xib in Resources */,
+				DF6C5E261D388E75009CEAF6 /* TrainSearch.storyboard in Resources */,
+				DF6C5E4A1D388E75009CEAF6 /* Setting.storyboard in Resources */,
 				DF8ACBD41D19257E0013AE86 /* index.html in Resources */,
+				DF6C5E351D388E75009CEAF6 /* travelsDetail.storyboard in Resources */,
+				DF6C5E471D388E75009CEAF6 /* RegistViewController.xib in Resources */,
 				DF360EDE1CFFC61400D5953B /* LaunchScreen.storyboard in Resources */,
+				DF6C5E311D388E75009CEAF6 /* HomeTravelsTableViewCell.xib in Resources */,
 				DF84A9851D01388C009F9F98 /* InfoPlist.strings in Resources */,
 				DF8ACBD31D19257E0013AE86 /* index.css in Resources */,
+				DF6C5E291D388E75009CEAF6 /* WeatherSearch.storyboard in Resources */,
+				DF6C5E371D388E75009CEAF6 /* LoginViewController.xib in Resources */,
+				DF6C5E331D388E75009CEAF6 /* TrainDetailTableViewCell.xib in Resources */,
 				DF84A9C41D0168C3009F9F98 /* Localizable.strings in Resources */,
 				DF360EDB1CFFC61400D5953B /* Assets.xcassets in Resources */,
 			);
@@ -439,8 +837,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6C5E251D388E75009CEAF6 /* SpotsSearchViewController.m in Sources */,
+				DF6C5E1D1D388E75009CEAF6 /* HMTabBar.m in Sources */,
+				DF6C5E4C1D388E75009CEAF6 /* StatementViewController.m in Sources */,
+				DF6C5E1E1D388E75009CEAF6 /* HMTabBarViewController.m in Sources */,
+				DF6C5E3D1D388E75009CEAF6 /* UIViewController+Example.m in Sources */,
+				DF6C5E301D388E75009CEAF6 /* HomeTravelsTableViewCell.m in Sources */,
+				DF6C5E4F1D388E75009CEAF6 /* FourthViewController.m in Sources */,
+				DF6C5E2A1D388E75009CEAF6 /* WeatherSearchViewController.m in Sources */,
+				DF6C5E491D388E75009CEAF6 /* IdeaViewController.m in Sources */,
+				DF6C5E451D388E75009CEAF6 /* UIView+Extension.m in Sources */,
+				DF6C5E1F1D388E75009CEAF6 /* ButtonsViewController.m in Sources */,
+				DF6C5E2E1D388E75009CEAF6 /* CategorySearchView.m in Sources */,
+				DF6C5E1C1D388E75009CEAF6 /* HMNavigationController.m in Sources */,
+				DF6C5E3A1D388E75009CEAF6 /* TCSignatureGenerator.m in Sources */,
+				DF6C5E431D388E75009CEAF6 /* MJDIYHeader.m in Sources */,
+				DF6C5E401D388E75009CEAF6 /* MJChiBaoZiHeader.m in Sources */,
+				DF6C5E3C1D388E75009CEAF6 /* MySimplePhotoBrowser.m in Sources */,
+				DF6C5E361D388E75009CEAF6 /* LoginViewController.m in Sources */,
+				DF6C5E4B1D388E75009CEAF6 /* SettingTableViewController.m in Sources */,
+				DF6C5E441D388E75009CEAF6 /* MySegmentControlView.m in Sources */,
 				DF360ED31CFFC61400D5953B /* AppDelegate.mm in Sources */,
+				DF6C5E241D388E75009CEAF6 /* SpotDetailWebviewController.m in Sources */,
+				DF6C5E1B1D388E75009CEAF6 /* ChatListTableViewController.m in Sources */,
+				DF6C5E3F1D388E75009CEAF6 /* MJChiBaoZiFooter2.m in Sources */,
+				DF6C5E481D388E75009CEAF6 /* AboutUsViewController.m in Sources */,
+				DF6C5E3B1D388E75009CEAF6 /* MyImagePicker.m in Sources */,
+				DF6C5E511D388E75009CEAF6 /* ThirdViewController.m in Sources */,
+				DF6C5E321D388E75009CEAF6 /* TrainDetailTableViewCell.m in Sources */,
+				DF6C5E221D388E75009CEAF6 /* SearchMySpotsViewController.m in Sources */,
+				DF6C5E2C1D388E75009CEAF6 /* ScenicspotListDataInfo.m in Sources */,
+				DF6C5E271D388E75009CEAF6 /* TrainSearchViewController.m in Sources */,
+				DF6C5E281D388E75009CEAF6 /* TravelsDetailTableViewController.m in Sources */,
+				DF6C5E461D388E75009CEAF6 /* RegistViewController.m in Sources */,
+				DF6C5E391D388E75009CEAF6 /* TCResponse.m in Sources */,
+				DF6C5E381D388E75009CEAF6 /* TCMainServerCenter.m in Sources */,
+				DF6C5E2F1D388E75009CEAF6 /* HomeTravelsCunstomTableViewCell.m in Sources */,
+				DF6C5E2B1D388E75009CEAF6 /* HomeTravelsCellModel.m in Sources */,
+				DF6C5E501D388E75009CEAF6 /* SecondViewController.m in Sources */,
+				DF6C5E421D388E75009CEAF6 /* MJDIYBackFooter.m in Sources */,
+				DF6C5E411D388E75009CEAF6 /* MJDIYAutoFooter.m in Sources */,
+				DF6C5E4E1D388E75009CEAF6 /* FirstViewController.m in Sources */,
 				DF360ED01CFFC61400D5953B /* main.m in Sources */,
+				DF6C5E2D1D388E75009CEAF6 /* SpotsSearchPageDataSource.m in Sources */,
+				DF6C5E211D388E75009CEAF6 /* NearbySpotsTableViewController.m in Sources */,
+				DF6C5E201D388E75009CEAF6 /* HomeViewController.m in Sources */,
+				DF6C5E3E1D388E75009CEAF6 /* MJChiBaoZiFooter.m in Sources */,
+				DF6C5E4D1D388E75009CEAF6 /* UserInfoSettingViewController.m in Sources */,
+				DF6C5E341D388E75009CEAF6 /* TrainSearchDetailTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

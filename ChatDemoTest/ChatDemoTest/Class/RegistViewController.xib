@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="PIV-Ut-dpB" customClass="RegistViewController">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="sOL-4v-93U"/>
+                <viewControllerLayoutGuide type="bottom" id="Uw0-lc-xIR"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="0RD-Dk-rgY">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_1page" translatesAutoresizingMaskIntoConstraints="NO" id="pAb-LB-91I">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    </imageView>
+                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="account.png" translatesAutoresizingMaskIntoConstraints="NO" id="CtV-ia-pSM">
+                        <rect key="frame" x="76" y="159" width="18" height="18"/>
+                    </imageView>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="个人账号/手机" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="G3b-Us-TbC" userLabel="username - 个人账号/手机">
+                        <rect key="frame" x="109" y="153" width="193" height="30"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="alphabet" returnKeyType="next"/>
+                    </textField>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yOP-L4-6Zz">
+                        <rect key="frame" x="72" y="182" width="230" height="1"/>
+                        <color key="backgroundColor" red="0.84313725490000002" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="xiaohuaShare" translatesAutoresizingMaskIntoConstraints="NO" id="1es-ea-dgU">
+                        <rect key="frame" x="76" y="325" width="18" height="18"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Ym-ph-tSn">
+                        <rect key="frame" x="72" y="348" width="230" height="1"/>
+                        <color key="backgroundColor" red="0.84313725490000002" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4I-k0-drT">
+                        <rect key="frame" x="149" y="381" width="80" height="44"/>
+                        <color key="backgroundColor" red="0.3411764706" green="0.72941176470000002" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                        <state key="normal" title="注册">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="registBtnClick:" destination="PIV-Ut-dpB" eventType="touchUpInside" id="yPP-cK-TCM"/>
+                        </connections>
+                    </button>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="QQ邮箱" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="JUC-Cy-VYz" userLabel="password - 密码">
+                        <rect key="frame" x="109" y="319" width="193" height="30"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
+                    </textField>
+                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="password.png" translatesAutoresizingMaskIntoConstraints="NO" id="dyZ-IB-Eya">
+                        <rect key="frame" x="76" y="214" width="18" height="18"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IWh-a2-a2D">
+                        <rect key="frame" x="72" y="237" width="230" height="1"/>
+                        <color key="backgroundColor" red="0.84313725490000002" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="密码" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="nXg-iq-jBL" userLabel="password - 密码">
+                        <rect key="frame" x="109" y="208" width="193" height="30"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="注意：邮箱是和账号绑定的唯一验证方式，请正确填写！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0zP-Me-Zyd">
+                        <rect key="frame" x="76" y="266" width="226" height="45"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Js1-pL-54u">
+                        <rect key="frame" x="20" y="41" width="81" height="35"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yr_leftArrow_disable" translatesAutoresizingMaskIntoConstraints="NO" id="ogp-zE-ekV">
+                                <rect key="frame" x="8" y="8" width="20" height="20"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="返回" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twi-QI-D2y">
+                                <rect key="frame" x="31" y="8" width="42" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </view>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <connections>
+                <outlet property="cancleView" destination="Js1-pL-54u" id="Q1R-us-wIT"/>
+                <outlet property="email" destination="JUC-Cy-VYz" id="tU1-Cg-BFP"/>
+                <outlet property="passWord" destination="nXg-iq-jBL" id="qIy-Kv-L95"/>
+                <outlet property="registBtn" destination="h4I-k0-drT" id="LAf-GW-ggO"/>
+                <outlet property="userName" destination="G3b-Us-TbC" id="Mgk-gj-uHm"/>
+            </connections>
+            <point key="canvasLocation" x="342.5" y="144.5"/>
+        </viewController>
+    </objects>
+    <resources>
+        <image name="account.png" width="18" height="18"/>
+        <image name="bg_1page" width="375" height="666"/>
+        <image name="password.png" width="18" height="18"/>
+        <image name="xiaohuaShare" width="20" height="20"/>
+        <image name="yr_leftArrow_disable" width="22" height="22"/>
+    </resources>
+</document>
